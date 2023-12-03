@@ -1,0 +1,29 @@
+.not-found-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: calc(100vh - 125.33px);
+
+    h1 {
+        font-size: 5.5rem;
+        font-weight: 800;
+        color: #b6b6b6;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    a {
+        font-size: 1.8rem;
+        font-weight: 800;
+        padding: 10px 30px;
+        color: white;
+        background-color: rgb(255,116,31);
+        border-radius: 5px;
+    }
+}

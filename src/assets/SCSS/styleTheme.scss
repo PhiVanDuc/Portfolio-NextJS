@@ -1,0 +1,51 @@
+.dark {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    transition: 0.2s linear;
+    transition-property: background-color, color;
+}
+
+.light {
+    background-color: white;
+    color: black;
+    transition: 0.2s linear;
+    transition-property: background-color, color;
+}
+
+.dark {
+    a {
+        color: white;
+    }
+
+    .logo {
+        span {
+            &:last-child {
+                color: white;
+            }
+        }
+    }
+
+    .btn-switch-theme {
+        svg {
+            fill: white;
+            stroke: white;
+        }
+    }
+
+    .portfolio-page {
+        .container {
+            box-shadow: 0px 15px 33px 6px rgba(255,187,146,0.2);
+            -webkit-box-shadow: 0px 15px 33px 6px rgba(255,187,146,0.2);
+            -moz-box-shadow: 0px 15px 33px 6px rgba(255,187,146,0.2);
+            border: 1px solid rgb(255,116,31); 
+            
+            .separate-column {
+                .info {
+                    .projects {
+                        border: 1px solid rgb(255,116,31); 
+                    }
+                }
+            }
+        }
+    }
+}
