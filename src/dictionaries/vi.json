@@ -1,0 +1,88 @@
+{
+    "skills": {
+        "heading": "Những kỹ năng của tôi",
+        "content": [
+            {
+                "nameSkill": "Phát triển web",
+                "listSkill": ":  REST API, React.js, Next.js, Redux, Context, CSS3, HTML5, UI/UX, Figma, Photoshop..."
+            },
+            {
+                "nameSkill": "Những kỹ năng khác",
+                "listSkill": ":  Kỹ năng nghiên cứu và tìm kiếm tương đối tốt. Tư duy làm việc, kỹ năng làm việc nhóm tốt..."
+            }
+        ]
+    },
+
+    "histories": {
+        "heading": "Lịch sử",
+        "journey": [
+            {
+                "year": "2015",
+                "experience": ": Hết tiểu học"
+            },
+            {
+                "year": "2016-2018",
+                "experience": ": Trung học cơ sở"
+            },
+            {
+                "year": "2018-2020",
+                "experience": ": Trung học phổ thông"
+            },
+            {
+                "year": "2021-2023",
+                "experience": ":  Sinh viên đại học"
+            }
+        ]
+    },
+
+    "contact": {
+        "heading": "Thông tin liên hệ",
+        "listSocialContact": [
+            {
+                "span": "Điện thoại: ",
+                "info": "0328895451"
+            },
+            {
+                "span": "Zalo: ",
+                "info": "https://zalo.me"
+            },
+            {
+                "span": "Email: ",
+                "info": "contact@fullstack.edu.vn"
+            },
+            {
+                "span": "Facebook: ",
+                "info": "https://www.facebook.com/groups/f8official"
+            },
+            {
+                "span": "Youtube: ",
+                "info": "https://www.youtube.com/c/f8vnofficial"
+            }
+        ]
+    },
+
+    "self-projects": {
+        "heading": "Dự án cá nhân",
+        "projects": [
+            {
+                "heading-project": "Dự án GreenChop",
+                "desc": "Một dự án đơn giản hoàn thành trong 4 ngày",
+                "detail-desc": "Một trang web đơn giản để quảng bá sản phẩm cho một công ty được xây dựng bằng HTML SCSS"
+            },
+            {
+                "heading-project": "Dự án Mini Trello",
+                "desc": "Một dự án phức tạp hơn được hoàn thành trong 1 tuần",
+                "detail-desc": "Ứng dụng quản lý tác vụ có thể sắp xếp tùy ý thứ tự các bảng, tác vụ được xây dựng bằng ReactJS"
+            }
+        ]
+    },
+
+    "hobbies": {
+        "heading": "Sở thích",
+        "list-hobbies": [
+            "Thưởng thức những bản nhạc thư giãn, những bài hát nhẹ nhàng như piano, jazz...",
+            "Đọc sách, tìm hiểu thêm về ngôn ngữ lập trình mới. Hiện tôi đang học NextJS",
+            "Đi theo xu hướng công nghệ, tin tức về các sản phẩm nổi tiếng như Macbook, Samsung, Asus, ..."
+        ]
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "skills": {
+        "heading": "My skills",
+        "content": [
+            {
+                "nameSkill": "Web developer",
+                "listSkill": ":  REST API, React.js, Next.js, Redux, Context, CSS3, HTML5, UI/UX, Figma, Photoshop..."
+            },
+            {
+                "nameSkill": "Other skills",
+                "listSkill": ":  Relatively good research and search skills. Working thinking, good teamwork skills..."
+            }
+        ]
+    },
+
+    "histories": {
+        "heading": "Histories",
+        "journey": [
+            {
+                "year": "2015",
+                "experience": ":  One of junior high school"
+            },
+            {
+                "year": "2016-2018",
+                "experience": ":  Other Junior high school"
+            },
+            {
+                "year": "2018-2020",
+                "experience": ":  Other high school"
+            },
+            {
+                "year": "2021-2023",
+                "experience": ":  College studies"
+            }
+        ]
+    },
+
+    "contact": {
+        "heading": "Social contact",
+        "listSocialContact": [
+            {
+                "span": "Phone: ",
+                "info": "0328895451"
+            },
+            {
+                "span": "Zalo: ",
+                "info": "https://zalo.me"
+            },
+            {
+                "span": "Email: ",
+                "info": "contact@fullstack.edu.vn"
+            },
+            {
+                "span": "Facebook: ",
+                "info": "https://www.facebook.com/groups/f8official"
+            },
+            {
+                "span": "Youtube: ",
+                "info": "https://www.youtube.com/c/f8vnofficial"
+            }
+        ]
+    },
+
+    "self-projects": {
+        "heading": "Self project",
+        "projects": [
+            {
+                "heading-project": "Project GreenChop",
+                "desc": "A simple project completed in 4 days",
+                "detail-desc": "A simple website to promote products for a company built with HTML SCSS"
+            },
+            {
+                "heading-project": "Project Mini Trello",
+                "desc": "A more complex project is completed in 1 week",
+                "detail-desc": "A task management application that can arbitrarily arrange the order of tables and tasks built with ReactJS"
+            }
+        ]
+    },
+
+    "hobbies": {
+        "heading": "My hobbies",
+        "list-hobbies": [
+            "Enjoy Relaxing Music, gentle songs, like piano and jazz...",
+            "Read Books, Learn More About New Programming Languages. Currently, I Am Self-Studying NextJS",
+            "Follow The Technology Trends, News About Famous Products Like Macbook, Samsung, Asus, ..."
+        ]
+    }
+}

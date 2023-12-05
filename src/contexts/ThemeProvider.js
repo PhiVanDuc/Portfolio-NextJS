@@ -1,19 +1,12 @@
 "use client"
 
-import { createContext, useEffect, useState } from "react"
+import { createContext, useLayoutEffect, useState } from "react"
 
 export const ThemeContext = createContext();
 
 export default function ThemeProvider({ children }) {
-    const [theme, setTheme] = useState("light");
+    const [theme, setTheme] = useState(localStorage.getItem("theme") ? JSON.parse(localStorage.getItem("theme")) : "light");
 
-    useEffect(() => {
-        if (localStorage.getItem("theme")) setTheme(JSON.parse(localStorage.getItem("theme")));
-        else {
-            localStorage.setItem("theme", JSON.stringify("light"));
-            setTheme("light");
-        }
-    }, [theme]);
 
     const switchTheme = (color) => {
         setTheme(color);

@@ -2,17 +2,23 @@
 
 import Link from "next/link"
 import '@/components/navigation/styleNavigation.scss'
-import { usePathname } from "next/navigation"
+import { usePathname, useRouter } from "next/navigation"
 import { ThemeContext } from "@/contexts/ThemeProvider"
 import { useContext } from "react"
 
-export default function Navigation() {
+export default function Navigation({ lang }) {
     const pathname = usePathname();
+    const router = useRouter();
     const { theme, switchTheme } = useContext(ThemeContext);
 
     const handleClickSwitchTheme = () => {
         if (theme === "light") switchTheme("dark");
         else switchTheme("light");
+    }
+
+    const handleClickSwitchLang = () => {
+        if (lang === "en") router.push("/vi");
+        else router.push("/en");
     }
 
     return (
@@ -26,7 +32,7 @@ export default function Navigation() {
 
                     <ul className='nav-list'>
                         <li className='nav-item'>
-                            <Link className={ pathname === "/" ? "active" : "nav-link" } href={'/'}>Home</Link>
+                            <Link className={ pathname === `/${lang}` ? "active" : "nav-link" } href={'/'}>Home</Link>
                         </li>
                     </ul>
                 </nav>
@@ -59,6 +65,7 @@ export default function Navigation() {
                             )
                         }
                     </button>
+                    <button className="btn-switch-lang" onClick={handleClickSwitchLang}>{ lang }</button>
                 </div>
             </div>
         </header>

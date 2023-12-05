@@ -57,18 +57,19 @@
                 font-weight: 800;
                 margin-right: 10px;
                 line-height: 1;
+                margin-top: -3px;
             }
 
             .btn-facebook-f8 {
-                margin-right: 10px;
+                margin-right: 3px;
                 svg {
                     height: 40px;
-                    width: 28px;
+                    width: 27px;
                 }
             }
 
             .btn-youtube-f8 {
-                margin-right: 10px;
+                margin-right: 5px;
                 svg {
                     height: 40px;
                     width: 35px;
@@ -81,11 +82,25 @@
                 border: none;
                 background-color: transparent;
                 cursor: pointer;
+                margin-right: 8px;
 
                 svg {
-                    width: 30px;
+                    width: 26px;
                     fill: 2;
                 }
+            }
+
+            .btn-switch-lang {
+                padding: 4px 0px;
+                font-size: 1.5rem;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 700;
+                margin-top: -3px;
+                border: 1px solid rgb(255,116,31);
+                border-radius: 4px;
+                background-color: transparent;
+                width: 80px;
+                cursor: pointer;
             }
         }
     }
